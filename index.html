@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<link href="sidebars.css" rel="stylesheet">
+</head>
+<body>
+<main class="d-flex flex-nowrap">
+<div class="flex-shrink-0 p-3 bg-white" style="width: 280px;">
+    <a href="#about" data-bs-toggle="collapse" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
+      <svg class="bi pe-none me-2" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+      <span class="fs-5 fw-semibold"><p>Jessica Novillo Argudo</p><p><CS Education Portfolio></p></span>
+    </a>
+    <ul class="list-unstyled ps-0">
+      <li class="mb-1">
+        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse"
+                data-bs-target="#home-collapse" aria-expanded="false">About
+        </button>
+        <div class="collapse show" id="home-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a data-bs-toggle="collapse" href="#about"
+                   class="link-dark d-inline-flex text-decoration-none rounded">Bio</a>
+            </li>
+            <li><a data-bs-toggle="collapse" href="#resume"
+                   class="link-dark d-inline-flex text-decoration-none rounded">Resume</a>
+            </li>
+            <li><a data-bs-toggle="collapse" href="#cs_education"
+                   class="link-dark d-inline-flex text-decoration-none rounded">Thoughts on CS Education</a>
+            </li>
+            <li><a data-bs-toggle="collapse" href="#teach"
+                   class="link-dark d-inline-flex text-decoration-none rounded">Teaching qualifications</a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="mb-1">
+        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+          Sample lesson plans
+        </button>
+        <div class="collapse" id="dashboard-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a data-bs-toggle="collapse" href="#towers" class="link-dark d-inline-flex text-decoration-none rounded">Tower of Hanoi</a></li>
+            <li><a data-bs-toggle="collapse" href="#bias" class="link-dark d-inline-flex text-decoration-none rounded">Bias in Algorithms</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="mb-1">
+        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+          Curricular Unit
+        </button>
+        <div class="collapse" id="orders-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a data-bs-toggle="collapse" href="#python" class="link-dark d-inline-flex text-decoration-none rounded">Introduction to Python</a></li>
+          </ul>
+        </div>
+      </li>
+      
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+          CS projects
+        </button>
+        <div class="collapse" id="orders-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a data-bs-toggle="collapse" href="#usaco" class="link-dark d-inline-flex text-decoration-none rounded">USACO problems</a></li>
+            <li><a data-bs-toggle="collapse" href="#inheritance" class="link-dark d-inline-flex text-decoration-none rounded">Inheritance</a></li>
+            <li><a data-bs-toggle="collapse" href="#quickselect" class="link-dark d-inline-flex text-decoration-none rounded">Quickselect algorithm</a></li>
+                   
+          </ul>
+        </div>
+      </li>
+      
+      
+      <li class="border-top my-3"></li>
+      <li class="mb-1">
+        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
+          Contact
+        </button>
+        <div class="collapse" id="account-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a data-bs-toggle="collapse" href="#contact" class="link-dark d-inline-flex text-decoration-none rounded">My Info</a></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </div>
+  
+  <div class="flex-grow-1 p-2 overflow-scroll" id="rightSide">
+    <div class="d-flex">
+        <div class="collapse show" id="about" data-bs-parent="#rightSide">
+            <h1>About me</h1>
+            <table>
+                <tr>
+                    <td>
+                        <img src="images/jessica.jpg" alt="Jessica Novillo Argudo" style="float:left;width:200px;height:250px;">
+                    </td>
+                    <td style="width:3%;"></td>
+                    <td>
+                        <p>Hello, welcome to my Professional Portfolio. My name is Jessica Novillo Argudo. I am passionate about Computer Science and Education.</p>
+                        <p>I hold a bachelor's degree in Computer Science from Universidad de Cuenca in Ecuador. 
+                           I have been working in New York for fourteen years as a software developer in the finance industry. 
+                           I have worked on developing websites, assisting quantitative analysts in developing programs that use financial models, 
+                            managing large databases and creating reports for clients.</p>
+                        <p>I am currently compleating my final semester of a Master of Computer Science Education (K-12th) at Hunter College in New York, NY.</p>
+                        <p>I have always had the dream to change my career and become an educator to
+                            teach students what I have learned throughout my professional career. 
+                            Also, I have seen New York willing to make Computer Science accessible to students of all ages (K-12th grade). 
+                            This was another reason that motivated me and made me realize that it was time to get into the education field.</p>
+                        <p>I am confident that my skills, all the education knowledge I have gained, and my passion for teaching would make me a good teacher.
+                            I am eager to inspire new generations to immerse themselves in this modern world full of technology that is constantly evolving.
+                        </p>
+                        
+                    </td>
+               </tr>
+           </table>
+        </div>
+        
+        <div class="collapse" id="resume" data-bs-parent="#rightSide">
+            <h1>Resume</h1>
+            <p>Please click <a href="https://github.com/jnovillo/portfolio/blob/main/docs/Jessica_Novillo_Argudo_resume.pdf">here </a>to access my resume.</p>
+        </div>
+        
+        <div class="collapse" id="cs_education" data-bs-parent="#rightSide">
+            <h1>My thoughts on CS education</h1>
+            <p>Computers and the internet are the latest technological revolution humans have created, and many have agreed that these tools have a huge positive impact on human life. The combination of both has immensely improved communication around the world and the processing of data resulting in new inventions in medicine, agriculture, commerce, transportation, science, finance, and education, among many others.</p>
+            <p>I am a firm believer that computer science education in grades K-12 is vital in today's digital world because it provides students with the necessary knowledge and skills to develop creativity, critical thinking, and problem-solving that are important not only in this subject, but they also help students to stimulate their attention and improve their performance in other subjects such as math and physics. Moreover, those skills prepare students for their professional life.</p> 
+            <p>Since computer science is a relatively new area in children's education, it is still limited in schools. However, I think t it will change in the short temp. For instance, over the last few years, I have seen New York willing to make Computer Science accessible to students of all school ages. Schools should definitely make efforts to ensure that all students have equal opportunities to access, learn and succeed in this field.</p>
+        </div>
+        <div class="collapse" id="teach" data-bs-parent="#rightSide">
+            <h1>Courses</h1>
+            <p>Based on my professional experiences and all the knowledge acquired in my Computer Science Eduacaion Master program I believe that 
+            I am well prepared and qualified to teach any Computer Science courses, such as: </p>
+            <ul>
+                <li>Software Development</li>
+                <li>AP Computer Science A</li>
+                <li>AP Computer Science Principles</li>
+                <li>Introduction to Computer Science</li>
+            </ul>
+        </div>
+        
+        <div class="collapse" id="towers" data-bs-parent="#rightSide">
+            <h1>Tower of Hanoi</h1
+            <p>The objective of this lesson is to teach and guide students on how to solve the Tower of Hanoi Puzzle by developing a recursive algorithm in Python.</p>
+            <p>Students have different programming skills that is why for this lesson's assigments. I am differentiaded by levels of difficulty.</p>
+                
+            <p>See <a href="https://github.com/jnovillo/portfolio/blob/main/docs/lessons/tower_of_hanoi_lesson_plan.pdf">lesson plan.</a></p>
+        </div>   
+        <div class="collapse" id="bias" data-bs-parent="#rightSide">
+            <h1>Bias in algorithms</h1>
+            <p>The objective of this lesson is to learn about algorithmic bias, and explore these bias in different algorithms used in our society.</p>
+ 
+            <p>See <a href="https://github.com/jnovillo/portfolio/blob/main/docs/lessons/algorithm_bias_lesson_plan.pdf">Lesson plan.</a></p>
+        </div>       
+        
+        <div class="collapse" id="python" data-bs-parent="#rightSide">
+            <h1>Introduction to programming in Python</h1>
+            <p>This unit introduces text-based programming to Computer Science Priciples students using the programming language Python. It provides an overview of the tools available in Python, such as the basic commands, data types, variables, conditional statements, functions, loops, and simple data structures. At the end of the unit, students will have the skills that will help them develop programs where they will show what they learned in the unit.</p>
+            <p>This unit could serve as a final unit for the AP Computer Science course and be introduced right after the AP Exam as a transition from a block-based programming language such as Snap! to a text-based programming language.</p>
+            <p>Click <a href="https://github.com/jnovillo/intro_to_python_unit_plan">here</a> to go to this unit plan repository.</p>
+        </div>   
+        
+        <div class="collapse" id="contact" data-bs-parent="#rightSide">
+            <h1>Contact Information</h1>
+            <p>Jessica Novillo Argudo</p>
+            <p>Computer Science Teacher Candidate</p>
+            <p>Cellphone: +1(347)-450-5806</p>
+            <p>Email: jessynovillo@gmail.com</p>
+        </div>
+        
+        <div class="collapse" id="usaco" data-bs-parent="#rightSide">
+        <h1>USACO Problems</h1>
+        <p>USACO (United States of America Computing Olympiad). It is a programming competition in the US in which many high school students participate.</p>
+        <p>I assign two USACO problems to students to have them practice their problem-solving and programming skills.</p>
+        <p>I gave the students the following directions:</p>
+        <ul>
+            <li>Read the problem multiple times</li>
+            <li>Understand the core of the problem</li>
+            <li>Think on a possible solution</li>
+            <li>Create and outline for their algorithm</li>
+            <li>Implement their algorithm</li>
+        </ul>
+        <p>The USACO problems can be found <a href="https://github.com/jnovillo/portfolio/blob/main/docs/projects/usaco/problems.md">here</a>.</p>
+      </div>
+    </div>
+    </div>
+   </main>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
